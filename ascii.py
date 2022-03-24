@@ -19,10 +19,19 @@ def menu():
     return """
     __________
     ░|                                         
-    ░|-[1]-crash thunder                              
+    ░|-[1]-thunderattack                         
+    ░|                                    
     ░|                                         
-    ░|                                         
-    ░|-[9]-criador                            
+    ░|-[9]-criador     
+    ░|-[0]-sair                            
     ░|______
     
     """
+
+def aviso(frase,title):
+  return RED+"""
+  @_________________"""+title+"""__________________@
+  \n
+  """+frase+"""\n
+  @___________________________________________@
+  """+RESET

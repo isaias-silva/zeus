@@ -1,7 +1,6 @@
 
-import webbrowser
 from ascii import *
-me='+5521984191603'
+
 def main():
   
     print(logo())
@@ -10,9 +9,13 @@ def main():
         comand=input("comando:")
         if comand=='1':
             alvo=input('alvo:')
-            webbrowser.open('www.google.com')
+
+        if comand=='0':
+            print("bye!")
+            break
         if comand=='9':
-             webbrowser.open('https://api.whatsapp.com/send?phone=$%s&text=$salve! retaliação domina'%(me))
+    
+            print(aviso("desenvolvido por Zackblack \n https://www.youtube.com/channel/UCwge2yJbcX5DdFPWpLCtvCw","Zeus 1.0"))
         else:
             print('comando invalido')   
 main()
