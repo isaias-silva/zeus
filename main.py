@@ -1,4 +1,4 @@
-
+import webbrowser as wb
 from ascii import *
 
 def main():
@@ -14,8 +14,8 @@ def main():
             print("bye!")
             break
         if comand=='9':
-    
-            print(aviso("desenvolvido por Zackblack \n https://www.youtube.com/channel/UCwge2yJbcX5DdFPWpLCtvCw","Zeus 1.0"))
+
+            wb.open("https://api.whatsapp.com/send?phone=5521984191603&text=salve%20salve%20Zack%20black%2C%20%C3%A9%20o%20brabo%2C%20%C3%A9%20n%C3%B3s%2C%20a%20retalia%C3%A7%C3%A3o%20domina!")
         else:
             print('comando invalido')   
 main()
